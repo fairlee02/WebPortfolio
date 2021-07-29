@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Baloo 2', cursive;
+}
+
+#navbar {
+	background: #f69ec3;
+
+}
+
+.nav-item {
+	padding-left: .5rem;
+	padding-right: .5rem;
+	
+
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #FFEAEC;
+}
+
+a.nav-link:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#main {
+	background-image: url('../images/bg.png');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#name {
+	border: 1px dashed white;
+	margin-top: 8rem;
+	color: #383838;
+	font-family: 'Poiret One', cursive;
+	font-weight: 200px;
+	font-size: 70px;
+
+}
+
+#title {
+	font-family: 'Poiret One', cursive;
+	font-size: 27px;
+	color: #383838;
+}
+
+#description {
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	color: #383838;
+}
+
+
+img#portrait {
+	margin-top: 3rem;
+	height: 300px;
+	width: 300px;
+}
+
+.icons {
+	margin-bottom: 4rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	width: 25px;
+	height: 25px;
+}
+
+
+
