@@ -53,12 +53,18 @@ a.nav-link:hover {
 }
 
 #description {
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 	font-family: 'Poiret One', cursive;
 	font-size: 30px;
 	font-weight: bold;
 	color: white;
 	box-sizing: border-box;
+
+}
+
+#icon1 {
+	padding: auto;
+	margin: auto auto 3rem auto;
 
 }
 
