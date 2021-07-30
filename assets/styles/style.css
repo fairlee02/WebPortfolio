@@ -30,7 +30,7 @@ a.nav-link:hover {
 
 #main {
 	background-image: url('../images/bg.png');
-	height: 500px;
+	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 0;
@@ -58,6 +58,7 @@ a.nav-link:hover {
 	font-size: 30px;
 	font-weight: bold;
 	color: gray;
+	box-sizing: border-box;
 
 }
 
@@ -67,23 +68,74 @@ a.nav-link:hover {
 }
 
 img#portrait {
-	margin: 0rem 3rem 1rem 0rem ;
+	margin: .5rem 3rem 1rem 0rem ;
 	height: 300px;
 	width: 300px;
 	float: left;
+	min-height: 5px;
 
 }
 
+#tools {
+	text-align: center;
+	background: #ffccff;
+	padding:auto;
+	border-radius: 20px;
+	margin-bottom: 2rem;
+}
+
+#topbtn {
+	padding: .5rem;
+	float: right;
+	text-decoration: none;
+	color: white;
+	background: #f69ec3;
+	border-radius: 10px;
+
+}
+
+#projects {
+	display: block;
+}
+
+#proj1, #proj2, #proj3, #proj4, #proj5 {
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+img + p.text-center{
+	padding: 3rem;
+}
+
+
+#contact-bg {
+	background-image: url('https://images.pexels.com/photos/6541878/pexels-photo-6541878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	margin-top: 5rem;
+	margin-bottom: .5rem;
+	height: 65vh;
+	width: 100%;
+	background-position: center;
+}
 
 
 #contact{ 
-	margin: 0 auto;
+	margin:  auto;
 	width: 300px;
 
 }
 
 button#submit {
 	margin: 0 auto;
+	padding: .5rem;
+	text-decoration: none;
+	color: white;
+	background: #f69ec3;
+	border-radius: 10px;
+
 }
 
 .icons {
@@ -93,9 +145,16 @@ button#submit {
 	margin-left: 1rem;
 	width: 25px;
 	height: 25px;
+
+}
+
+#socmed-links {
+	margin-bottom: 3rem;
 }
 
 #copyright {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
 	background: #f69ec3;
 }
 
