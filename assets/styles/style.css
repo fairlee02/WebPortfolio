@@ -29,7 +29,7 @@ a.nav-link:hover {
 }
 
 #main {
-	background-image: url('../images/bg.png');
+	background-image: url('https://images.pexels.com/photos/6541878/pexels-photo-6541878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -57,7 +57,7 @@ a.nav-link:hover {
 	font-family: 'Poiret One', cursive;
 	font-size: 30px;
 	font-weight: bold;
-	color: gray;
+	color: white;
 	box-sizing: border-box;
 
 }
@@ -94,20 +94,32 @@ img#portrait {
 
 }
 
+#projectname {
+	margin: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 2px dashed #f69ec3 ;
+
+}
+
 #projects {
-	display: block;
+	text-align: center;
 }
 
 #proj1, #proj2, #proj3, #proj4, #proj5 {
-	width: 250px;
-	height: 250px;
-	border-radius: 20px;
+	width: 230px;
+	height: 230px;
+	border-radius: 40px;
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
 
 img + p.text-center{
 	padding: 3rem;
+}
+
+img + p.text-center {
+	inline-size: 250px;
+
 }
 
 
