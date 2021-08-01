@@ -115,12 +115,20 @@ img#portrait {
 	padding-bottom: 2rem;
 	border-bottom: 2px dashed #f69ec3 ;
 	border-top: 2px dashed #f69ec3 ;
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
 
 }
+
 
 #projects {
+	background-image: url('../images/curve-bg.png');
+	background-size: cover;
+	background-position: center;
+	border-left: 1px dashed lightpink;
+	border-right: 1px dashed lightpink;
 	text-align: center;
-}
+}	
 
 #proj1, #proj2, #proj3, #proj4, #proj5 {
 	width: 230px;
@@ -152,13 +160,13 @@ img + p.text-center {
 
 
 #contactpage{ 
-	margin: auto;
+	margin:2rem auto auto auto;
 	width: 300px;
 
 }
 
 #contact {
-	padding-top: 4rem;
+	padding-top: 2rem;
 
 }
 
