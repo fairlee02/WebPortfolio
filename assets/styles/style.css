@@ -153,11 +153,22 @@ img + p.text-center {
 	background-size: cover;
 	margin-top: 5rem;
 	margin-bottom: 0;
-	height: 70vh;
+	height: 100vh;
 	width: 100%;
 	background-position: center center;
 }
 
+#capstone2 {
+	background-color: #ffccff;
+	font-family: 'Be Vietnam', sans-serif;
+	font-size: 30px;
+}
+
+#capstone3 {
+	background-color: #f69ec3;
+	font-family: 'Be Vietnam', sans-serif;
+	font-size: 30px;
+}
 
 #contactpage{ 
 	margin:2rem auto auto auto;
